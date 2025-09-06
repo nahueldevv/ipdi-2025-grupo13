@@ -1,0 +1,41 @@
+# Archivos binarios y ejecutables
+*.exe
+*.out
+*.o
+*.obj
+*.dll
+*.so
+*.a
+*.lib
+
+# Archivos temporales y de sistema
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Archivos generados por VS Code
+.vscode/
+
+# Archivos generados por MSYS2/MinGW
+msys2.ini
+
+# Archivos de depuración
+*.dSYM/
+*.stackdump
+
+# Otros
+*.class
+*.pyc
+
+# Ignorar carpetas de entorno y dependencias
+node_modules/
+__pycache__/
+tests
+
+# Ignorar archivos de configuración personal
+*.code-workspace

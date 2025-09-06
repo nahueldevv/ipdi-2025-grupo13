@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[scripts]
+tp00 = "python -m tp00.main"
+tp01 = "python -m tp01.main"
+
+[packages]
+customtkinter = "*"
+pillow = "*"
+numpy = "*"
+scipy = "*"
+matplotlib = "*"
+imageio = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.13"
