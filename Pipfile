@@ -6,6 +6,7 @@ name = "pypi"
 [scripts]
 tp00 = "python -m tp00.main"
 tp01 = "python -m tp01.main"
+tp02 = "python -m tp02.main"
 
 [packages]
 customtkinter = "*"
